@@ -1,0 +1,24 @@
+{
+  "name": "poker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev --no-notify --respawn --transpileOnly ./src",
+    "test": "jest --watchAll"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/lodash": "^4.14.141",
+    "jest": "^24.9.0",
+    "lodash": "^4.17.15",
+    "ts-node-dev": "^1.0.0-pre.43",
+    "typescript": "^3.6.3"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.18",
+    "ts-jest": "^24.1.0"
+  }
+}
